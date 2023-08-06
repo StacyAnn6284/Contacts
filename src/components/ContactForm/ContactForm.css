@@ -1,0 +1,43 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  color: #ecf2f4;
+  margin: 20px 20px 0px 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+}
+
+.inputBox {
+  color: black;
+  background-color: #ecf2f4;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.formBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
+
+label {
+  margin-top: 15px;
+}
+
+button {
+  color: #e36940;
+  border: 1px solid #e36940;
+  padding: 10px 15px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}

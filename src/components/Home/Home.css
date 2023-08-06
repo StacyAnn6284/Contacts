@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@media only screen and (min-width: 768px) {
+  .Home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .NewContactForm {
+    width: 40%;
+    margin: 30px;
+    padding-right: 20px;
+  }
+  .ContactListBox {
+    width: 60%;
+    border-left: 2px solid #5a7d7c;
+    padding-left: 20px;
+  }
+}
